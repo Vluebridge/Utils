@@ -1,0 +1,20 @@
+{
+  "name": "vluebridge/utils",
+  "description": "Provides utility classes to be used in various projects.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vernard Alexis Luz",
+      "email": "vernard@vluebridge.com"
+    }
+  ],
+  "require": {
+      "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vluebridge\\": "src/"
+    }
+  }
+}
